@@ -160,8 +160,18 @@ console.log(me);
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
 */
 
-const lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-console.log(lista);
+const lista = [];
+
+lista.push(1);
+lista.push(2);
+lista.push(3);
+lista.push(4);
+lista.push(5);
+lista.push(6);
+lista.push(7);
+lista.push(8);
+lista.push(9);
+lista.push(10);
 
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
